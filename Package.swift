@@ -29,7 +29,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/Kitura/Kitura-NIO.git", from: "2.4.200"),
+        .package(url: "https://github.com/ryanfrancesconi/Kitura-NIO.git", branch: "add"),
         .package(url: "https://github.com/Kitura/BlueCryptor.git", from: "1.0.200"),
         .package(url: "https://github.com/Kitura/Kitura-WebSocket-Compression.git", from: "0.1.200")
     ],
